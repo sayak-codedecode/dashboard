@@ -209,7 +209,7 @@ export default function SearchPage() {
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-[20px] font-semibold text-gray-800">Search Redirection</h1>
-        <button className="flex items-center gap-2 bg-[#2563EB] hover:bg-[#1D4ED8] text-white text-sm px-4 py-2 rounded-md transition">
+        <button className="flex items-center gap-2 bg-[#2563EB] hover:bg-[#0035c8] text-white text-sm px-4 py-2 rounded-md transition">
           <Plus size={16} /> CREATE
         </button>
       </div>
