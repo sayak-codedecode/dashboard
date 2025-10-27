@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar";
 import Topbar from "./components/TopBar";
 import CategoryManagement from "./pages/CategoryManagement";
 import Search from "./pages/SearchPage.tsx";
-import Catalogue from "./pages/Catalogue";
+import Catalogue from "./pages/Catalogue.tsx";
 import Campaigns from "./pages/Campaigns.tsx";
 import Segments from "./pages/Segments.tsx";
 import UserProfiles from "./pages/UserProfiles.tsx";

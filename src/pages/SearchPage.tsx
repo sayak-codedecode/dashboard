@@ -201,7 +201,6 @@ export default function SearchPage() {
     (c) =>
       c.name.toLowerCase().includes(query.toLowerCase()) ||
       c.geo.toLowerCase().includes(query.toLowerCase()) ||
-      c.keywords.join(" ").toLowerCase().includes(query.toLowerCase()) ||
       c.url.toLowerCase().includes(query.toLowerCase())
   );
 
@@ -224,7 +223,7 @@ export default function SearchPage() {
           />
           <input
             type="text"
-            placeholder="Search by Campaign Name, Keywords or URL"
+            placeholder="Search by Campaign Name, GEO or URL"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="w-1/3 pl-10 pr-4 py-2.5 border border-gray-200 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-gray-400"
