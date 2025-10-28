@@ -143,7 +143,7 @@ const ProductCatalogue: React.FC = () => {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Search by Product Name or Product ID"
-            className="w-1/2 border border-gray-200 rounded-lg pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-100"
+            className="w-full border border-gray-200 rounded-lg pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-100"
           />
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -159,6 +159,7 @@ const ProductCatalogue: React.FC = () => {
 
       {/* Table */}
       <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+        <div className="overflow-x-auto">
         <table className="min-w-full text-sm text-gray-700">
           <thead className="bg-gray-50 text-gray-700 text-xs uppercase border-b border-gray-200">
             <tr>
@@ -210,6 +211,7 @@ const ProductCatalogue: React.FC = () => {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       {/* Pagination Footer */}

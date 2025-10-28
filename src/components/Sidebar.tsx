@@ -126,7 +126,7 @@ export default function Sidebar({ className = "" }: SidebarProps) {
     `}
                   >
                     <div className="flex items-center gap-2 px-4 py-3 border-b border-gray-100 bg-gray-50 rounded-t-xl">
-                      <span className="text-blue-600">{item.icon}</span>
+                      <span className="text-gray-600">{item.icon}</span>
                       <span className="font-semibold text-gray-700 text-sm">
                         {item.label}
                       </span>

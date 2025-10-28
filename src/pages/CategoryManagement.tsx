@@ -258,7 +258,7 @@ export default function CategoryManagement() {
           placeholder="Search by Category Name, ID or URL"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-2xl rounded-md p-2 text-sm mb-4 border border-gray-300"
+          className="w-full mb-4 pl-6 pr-4 py-1.5 border border-gray-200 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-gray-400"
         />
         
         <CategoryTable categories={filtered} />

@@ -226,13 +226,14 @@ export default function SearchPage() {
             placeholder="Search by Campaign Name, GEO or URL"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            className="w-1/3 pl-10 pr-4 py-2.5 border border-gray-200 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-gray-400"
+            className="w-full pl-10 pr-4 py-2.5 border border-gray-200 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-gray-400"
           />
         </div>
       </div>
 
       {/* Table */}
       <div className="bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden">
+        <div className="overflow-x-auto">
         <table className="min-w-full text-sm text-gray-700">
           {/* Table Head */}
           <thead className="bg-linear-to-r from-blue-50 to-indigo-50 text-gray-700 text-xs uppercase tracking-wide border-b border-gray-200">
@@ -319,6 +320,7 @@ export default function SearchPage() {
             )}
           </tbody>
         </table>
+        </div>
       </div>
 
     </div>
