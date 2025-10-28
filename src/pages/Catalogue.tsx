@@ -143,7 +143,7 @@ const ProductCatalogue: React.FC = () => {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Search by Product Name or Product ID"
-            className="w-full border border-gray-200 rounded-lg pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-100"
+            className="w-1/2 border border-gray-200 rounded-lg pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-100"
           />
           <svg
             xmlns="http://www.w3.org/2000/svg"
